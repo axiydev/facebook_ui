@@ -4,6 +4,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+/*
+Created by Axmadjon Isaqov on 12:13:42 28.09.2022
+© 2022 @axi_dev 
+*/
+/*
+Mavzu:::Facebook ui
+*/
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(DevicePreview(
