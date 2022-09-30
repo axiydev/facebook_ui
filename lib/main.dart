@@ -1,5 +1,5 @@
 import 'package:device_preview/device_preview.dart';
-import 'package:facebook_app/page/facebook/facebook_view.dart';
+import 'package:facebook_app/page/instagram/instagram_view.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const FacebookView(),
+        home: const InstagramView(),
       ),
     );
   }
