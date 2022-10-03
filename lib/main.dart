@@ -1,4 +1,5 @@
 import 'package:device_preview/device_preview.dart';
+import 'package:facebook_app/page/chat/chat_view.dart';
 import 'package:facebook_app/page/instagram/instagram_view.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(390, 844),
+      // designSize: const Size(390, 844),
+      designSize: const Size(360, 640),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, _) => MaterialApp(
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const InstagramView(),
+        home: const ChatView(),
       ),
     );
   }
